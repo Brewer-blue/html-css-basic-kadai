@@ -1,6 +1,7 @@
 body {
   font-family: "Arial", "Meiryo", sans-serif;
   font-size: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -9,12 +10,19 @@ h1 {
   font-weight: 100px;
   font-style: normal;
   font-size: 40px;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
 }
 
- .text-blue {
+.text-blue {
   color: skyblue;
 }
 
 .text-pink {
   color: rgb(255, 192, 203);
+}
+
+ #parent p {
+   font-weight: bold;
 }
